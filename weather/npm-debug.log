@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'china-weather1',
+1 verbose cli   '-g' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData china-weather1
+8 silly fetchNamedPackageData china-weather1
+9 silly mapToRegistry name china-weather1
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'china-weather1',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'china-weather1',
+12 silly mapToRegistry   name: 'china-weather1',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri http://registry.npmjs.org/china-weather1
+14 verbose request uri http://registry.npmjs.org/china-weather1
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:30:17
+17 verbose request using bearer token for auth
+18 verbose request id 61fb88dd0a9fec9d
+19 verbose etag W/"58aa61d0-517"
+20 verbose lastModified Mon, 20 Feb 2017 03:26:08 GMT
+21 http request GET http://registry.npmjs.org/china-weather1
+22 http 304 http://registry.npmjs.org/china-weather1
+23 verbose headers { server: 'nginx/1.10.1',
+23 verbose headers   'last-modified': 'Mon, 20 Feb 2017 03:26:08 GMT',
+23 verbose headers   etag: '"58aa61d0-517"',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Mon, 20 Feb 2017 03:30:11 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-nrt6132-NRT',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1487561411.287434,VS0,VE130',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 304,
+24 silly get   { server: 'nginx/1.10.1',
+24 silly get     'last-modified': 'Mon, 20 Feb 2017 03:26:08 GMT',
+24 silly get     etag: '"58aa61d0-517"',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Mon, 20 Feb 2017 03:30:11 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-nrt6132-NRT',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1487561411.287434,VS0,VE130',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose etag http://registry.npmjs.org/china-weather1 from cache
+26 verbose get saving china-weather1 to /Users/xxk/.npm/registry.npmjs.org/china-weather1/.cache.json
+27 verbose correctMkdir /Users/xxk/.npm correctMkdir not in flight; initializing
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly resolveWithNewModule china-weather1@1.0.1 checking installable status
+41 silly cache add args [ 'china-weather1', null ]
+42 verbose cache add spec china-weather1
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: 'china-weather1',
+43 silly cache add   scope: null,
+43 silly cache add   escapedName: 'china-weather1',
+43 silly cache add   name: 'china-weather1',
+43 silly cache add   rawSpec: '',
+43 silly cache add   spec: 'latest',
+43 silly cache add   type: 'tag' }
+44 silly addNamed china-weather1@latest
+45 verbose addNamed "latest" is being treated as a dist-tag for china-weather1
+46 info addNameTag [ 'china-weather1', 'latest' ]
+47 silly mapToRegistry name china-weather1
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry http://registry.npmjs.org/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'china-weather1',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   escapedName: 'china-weather1',
+50 silly mapToRegistry   name: 'china-weather1',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri http://registry.npmjs.org/china-weather1
+52 verbose addNameTag registry:http://registry.npmjs.org/china-weather1 not in flight; fetching
+53 verbose get http://registry.npmjs.org/china-weather1 not expired, no request
+54 silly addNameTag next cb for china-weather1 with tag latest
+55 silly addNamed china-weather1@1.0.1
+56 verbose addNamed "1.0.1" is a plain semver version for china-weather1
+57 silly cache afterAdd china-weather1@1.0.1
+58 verbose afterAdd /Users/xxk/.npm/china-weather1/1.0.1/package/package.json not in flight; writing
+59 verbose correctMkdir /Users/xxk/.npm correctMkdir not in flight; initializing
+60 verbose afterAdd /Users/xxk/.npm/china-weather1/1.0.1/package/package.json written
+61 silly loadAllDepsIntoIdealTree Finishing
+62 silly loadIdealTree Finishing
+63 silly currentTree lib
+64 silly idealTree lib
+64 silly idealTree └── china-weather1@1.0.1
+65 silly generateActionsToTake Starting
+66 silly install generateActionsToTake
+67 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+68 silly rollbackFailedOptional Starting
+69 silly rollbackFailedOptional Finishing
+70 silly runTopLevelLifecycles Finishing
+71 silly install printInstalled
+72 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+72 verbose stack     at Error (native)
+73 verbose cwd /Users/xxk/weather
+74 error Darwin 15.3.0
+75 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "china-weather1" "-g"
+76 error node v6.9.1
+77 error npm  v3.10.8
+78 error path /usr/local/lib/node_modules
+79 error code EACCES
+80 error errno -13
+81 error syscall access
+82 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+82 error     at Error (native)
+82 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+82 error     at Error (native)
+82 error   errno: -13,
+82 error   code: 'EACCES',
+82 error   syscall: 'access',
+82 error   path: '/usr/local/lib/node_modules' }
+83 error Please try running this command again as root/Administrator.
+84 verbose exit [ -13, true ]
